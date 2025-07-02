@@ -1,0 +1,170 @@
+/* Container chính của slider */
+.specialties-slider {
+    position: relative;
+    z-index: 100;
+    margin: 0.5px auto;
+    width: 100%;
+    background-color: white;
+    padding-top: 65px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+/* Tiêu đề của slider */
+.specialties-slider h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-left: 50px; 
+}
+
+/* Cấu hình cho slider */
+.specialties-slider .slick-slider {
+    margin-bottom: 50px; 
+}
+
+/* Các nút điều hướng slider */
+.slick-prev, .slick-next {
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    font-size: 20px; 
+}
+
+/* Các phần tử trong slider (specialty-item) */
+.specialty-item {
+    width: 250px; 
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.specialty-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* Hiển thị thông tin dưới mỗi ảnh */
+.specialty-item p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hiệu ứng hover cho các item */
+.specialty-item:hover {
+    background: #f9f9f9;
+}
+
+/* Slider căn giữa */
+.slick-slide > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Các nút điều hướng custom */
+.custom-next, .custom-prev {
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.doctor-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+  
+  .doctor-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 1px solid #ddd;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .doctor-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+  .doctor-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .doctor-desc {
+    font-size: 13px;
+    color: #626262;
+    margin-top: 1px;
+  }
+
+  .doctor-item:hover {
+    background: #f9f9f9;
+  
+  }
+.custom-next {
+    right: -30px;
+}
+
+.custom-prev {
+    left: -30px;
+}
+
+/* Khung chứa slider */
+.specialties-slider-frame {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.slider-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.view-more-btn {
+    background-color: #DAF3F6; 
+    color: #34929E; 
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+/* Hiệu ứng hover cho nút "Xem thêm" */
+.view-more-btn:hover {
+    background-color: #007bff;  
+    color: white;  
+    border-color: #0056b3;  
+}
+
+/* Hiệu ứng focus cho nút "Xem thêm" khi người dùng nhấn */
+.view-more-btn:focus {
+    outline: none; 
+    box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.5); 
+}

@@ -1,0 +1,204 @@
+.header-container {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.dropdown-menu {
+    border: none; 
+    position: absolute;
+    top: 60px; 
+    left: 10px;
+    background: white;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 10px 0;
+}
+button {
+    border: none;  
+    outline: none; 
+    background: none; 
+    padding: 0; 
+  }
+
+.dropdown-menu.show {
+    transform: scaleY(1);
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+.dropdown-menu li:active, 
+.dropdown-menu li:focus {
+    background-color: #f0f0f0; 
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    transition: background 0.2s;
+}
+
+.ai-assistant {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    color: #FFA500; 
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.ai-assistant img {
+    width: 80px; 
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ai-assistant:hover img {
+    transform: scale(1.1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-between; 
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
+    margin-top: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    color: #d82c20;
+    font-size: 100px;
+    cursor: pointer; 
+}
+
+.logo i {
+    font-size: 27px;
+    color: #948786;
+}
+
+.logo-img {
+    width: 20px;
+}
+.logo-text{
+    font-size: 30px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px; 
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav-links li span {
+    font-weight: normal;
+    display: block;
+    font-size: 12px;
+    color: #888;
+}
+
+/* Phần bên phải: Hỗ trợ + Chuyển ngôn ngữ */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Nút hỗ trợ */
+.navbar-support button {
+    background-color: #7b61da;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.navbar-support button:hover {
+    background-color: #6525dd;
+}
+
+/* Chuyển đổi ngôn ngữ */
+.language-switch {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.language-switch button {
+    background: none;
+    border: 1px solid rgb(69, 66, 224);
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.language-switch button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Nút được chọn sẽ đổi màu */
+.language-switch .active-lang {
+    background: #7b61da; 
+    color: white;
+    border-color: #7b61da;
+}
+.highlight {
+    background-color: red !important;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+
+  

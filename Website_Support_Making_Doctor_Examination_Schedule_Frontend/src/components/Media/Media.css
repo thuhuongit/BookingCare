@@ -1,0 +1,44 @@
+.media-section {
+    background-color: #e6f7ff; 
+    padding: 30px 0;
+    text-align: center;
+}
+.logo {
+    border-radius: 0; 
+    box-shadow: none; 
+}
+
+.media-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.media-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.media-video {
+    flex: 1;
+    max-width: 450px;
+    border-radius: 30px
+}
+
+.media-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    cursor: pointer;
+}
+
+
+.media-logo img {
+    width: 150px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+

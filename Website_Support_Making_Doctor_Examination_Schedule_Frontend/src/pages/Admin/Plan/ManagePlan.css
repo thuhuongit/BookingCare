@@ -1,0 +1,123 @@
+.schedule-container {
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+  }
+
+.schedule-container h2{
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 28px;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .doctor-select, .date-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+  }
+  
+  .time-slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .time-button {
+    padding: 10px 16px;
+    background: #e5e7eb;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .time-button.selected {
+    background: #fbbf24;
+    color: #000;
+  }
+  
+  .save-button {
+    background: #2563eb;
+    color: #fff;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+.time-button.booked {
+  background-color: #c40c0c;
+  color: #fffefe;
+  cursor: not-allowed;
+}
+
+.time-button.booked:hover {
+  background-color: #aa190f;
+}
+.booked-table {
+  margin-top: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 20px;
+}
+
+.booked-table h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+.booked-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.booked-table th,
+.booked-table td {
+  padding: 12px 16px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.booked-table th {
+  background-color: #f7f7f7;
+  font-weight: bold;
+  color: #444;
+}
+
+.booked-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.delete-btn {
+  background-color: #ff4d4f;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #e60000;
+}
+

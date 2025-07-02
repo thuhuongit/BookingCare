@@ -1,0 +1,54 @@
+.form-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 1500px;
+  width: 100%;
+  margin: 100px auto; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+}
+
+.table-wrapper {
+  margin-top: 5px;
+  overflow-x: auto;
+}
+
+.specialty-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.specialty-table th,
+.specialty-table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.specialty-table th {
+  background-color: #f4f4f4;
+}
+
+.thumb {
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
