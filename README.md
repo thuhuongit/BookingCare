@@ -62,7 +62,7 @@ npm run dev
 
 ```
 
-## ⚙️ Cấu hình .env cho backend:
+### ⚙️ Cấu hình .env cho backend:
 PORT=8080
 DB_HOST=localhost
 DB_NAME=thuhuong
