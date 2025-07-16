@@ -52,7 +52,33 @@ Dự án này là hệ thống đặt lịch khám bệnh trực tuyến, hỗ t
 ```bash
 https://github.com/thuhuongit/BookingCare.git
 
+```
+### 2. Cài đặt Backend
 
+```bash
+cd Website_Support_Making_Doctor_Examination_Schedule
+npm install
+npm run dev
 
+```
+
+## ⚙️ Cấu hình .env cho backend:
+PORT=8080
+DB_HOST=localhost
+DB_NAME=thuhuong
+DB_USER=root
+DB_PASSWORD=yourpassword
+JWT_SECRET=your_jwt_secret
+EMAIL_APP=youremail@gmail.com
+EMAIL_APP_PASSWORD=your_app_password
+
+### 3. Cài đặt Frontend
+
+```bash
+cd ReactWeb
+npm install
+npm run dev
+
+```
 
 
