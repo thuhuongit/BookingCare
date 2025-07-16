@@ -53,13 +53,6 @@ Dự án này là hệ thống đặt lịch khám bệnh trực tuyến, hỗ t
 https://github.com/thuhuongit/BookingCare.git
 
 
- Bước 2: Cài đặt và chạy Backend
-
-```bash
-cd Website_Support_Making_Doctor_Examination_Schedule
-npm install
-npm run dev
-
 
 
 
