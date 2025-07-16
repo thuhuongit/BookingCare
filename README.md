@@ -56,7 +56,7 @@ https://github.com/thuhuongit/BookingCare.git
 ### 2. Cài đặt Backend
 
 ```bash
-cd Website_Support_Making_Doctor_Examination_Schedule
+cd Website_Support_Making_Doctor_Examination_Schedule_Backend
 npm install
 npm run dev
 
@@ -75,7 +75,7 @@ npm run dev
 ### 3. Cài đặt Frontend
 
 ```bash
-cd ReactWeb
+cd Website_Support_Making_Doctor_Examination_Schedule_Frontend
 npm install
 npm run dev
 
