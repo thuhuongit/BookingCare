@@ -51,3 +51,5 @@ Dự án này là hệ thống đặt lịch khám bệnh trực tuyến, hỗ t
 
 ```bash
 https://github.com/thuhuongit/BookingCare.git
+
+### 2. Cài đặt Backend
