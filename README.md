@@ -1,4 +1,4 @@
-# Website Đặt Lịch Khám Bệnh - Clone từ BookingCare
+# Website Đặt Lịch Khám Bệnh từ BookingCare
 
 Dự án này là hệ thống đặt lịch khám bệnh trực tuyến, hỗ trợ kết nối giữa **bệnh nhân**, **bác sĩ**, và **admin**, cho phép đăng ký lịch khám, quản lý thời gian làm việc của bác sĩ, quản trị chuyên khoa, phòng khám và gửi thông báo qua email.
 
@@ -51,4 +51,15 @@ Dự án này là hệ thống đặt lịch khám bệnh trực tuyến, hỗ t
 
 ```bash
 https://github.com/thuhuongit/BookingCare.git
+
+
+ Bước 2: Cài đặt và chạy Backend
+
+```bash
+cd Website_Support_Making_Doctor_Examination_Schedule
+npm install
+npm run dev
+
+
+
 
