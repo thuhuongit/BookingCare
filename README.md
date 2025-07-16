@@ -63,14 +63,14 @@ npm run dev
 ```
 
 ### ⚙️ Cấu hình .env cho backend:
-PORT=8080
-DB_HOST=localhost
-DB_NAME=thuhuong
-DB_USER=root
-DB_PASSWORD=yourpassword
-JWT_SECRET=your_jwt_secret
-EMAIL_APP=youremail@gmail.com
-EMAIL_APP_PASSWORD=your_app_password
+- PORT=8080
+- DB_HOST=localhost
+- DB_NAME=thuhuong
+- DB_USER=root
+- DB_PASSWORD=yourpassword
+- JWT_SECRET=your_jwt_secret
+- EMAIL_APP=youremail@gmail.com
+- EMAIL_APP_PASSWORD=your_app_password
 
 ### 3. Cài đặt Frontend
 
